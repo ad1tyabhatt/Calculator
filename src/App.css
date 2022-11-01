@@ -1,0 +1,30 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  background: lightblue;
+}
+
+.calculator{
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: repeat(4,5rem);
+  grid-template-rows: min(5rem) repeat(5,5rem);
+  justify-content: center;
+}
+
+.output{
+  display: flex;
+  background: white;
+  grid-column: 1/-1;
+}
+button{
+  color: white;
+  background: blue;
+}
+input{
+  background: black;
+  height: 100%;
+  color: white;
+  font-size: 1.1rem;
+}
